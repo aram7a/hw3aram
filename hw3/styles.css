@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.header nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header nav ul li a:hover {
+    color: #7a7eef;
+}
+
+
+.about-section {
+    background-image:url(https://viso.ai/wp-content/uploads/2021/06/top-computer-vision-companies.jpg);
+    padding: 80px;
+    margin-top: 100px; 
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.skills-section {
+    background-color:#ddd;
+    padding: 50px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.skill-item {
+    list-style: none;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.skill-item:hover {
+    background-color: #7a7eef;
+}
+
+
+.projects-section {
+    padding: 50px;
+    background-color:#333;
+    color: #fff;
+}
+
+.project-card {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.project-card.absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.project1{
+padding: 20px;
+margin: 20px;
+
+}
+#p1img {
+height: 100px;
+width: 100px;
+border-radius: 30%;
+}
+
+#p2img{
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;  
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: static;
+}
